@@ -1,0 +1,8 @@
+{
+  "name": {
+    "message": "Visor de Markdown – Mermaid, KaTeX e índice"
+  },
+  "description": {
+    "message": "Lee archivos .md locales y web con estilo: diagramas Mermaid, resaltado de código, fórmulas KaTeX, índice, temas oscuro y marfil."
+  }
+}

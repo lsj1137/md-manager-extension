@@ -1,0 +1,8 @@
+{
+  "name": {
+    "message": "Markdown-Viewer – Mermaid, KaTeX & Inhalt"
+  },
+  "description": {
+    "message": "Schöner Reader für lokale und Web-.md-Dateien: Mermaid-Diagramme, Syntaxhervorhebung, KaTeX, Inhaltsverzeichnis, Dunkel/Elfenbein."
+  }
+}

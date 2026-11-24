@@ -1,0 +1,27 @@
+{
+  "name": "md-viewer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "bun scripts/build.js",
+    "test": "bun test",
+    "e2e": "node tests/e2e.cjs"
+  },
+  "dependencies": {
+    "dompurify": "^3.5.0",
+    "highlight.js": "^11.12.0",
+    "katex": "0.16",
+    "marked": "^18.2.1",
+    "marked-alert": "^2.1.2",
+    "marked-footnote": "^1.4.0",
+    "marked-highlight": "^2.2.4",
+    "marked-katex-extension": "^5.1.13",
+    "mermaid": "^12.3.0"
+  },
+  "devDependencies": {
+    "jsdom": "^31.0.1",
+    "puppeteer-core": "^25.18.1"
+  },
+  "license": "MIT",
+  "type": "module"
+}

@@ -1,0 +1,4 @@
+{
+  "name": { "message": "Markdown Viewer – Mermaid, KaTeX & TOC" },
+  "description": { "message": "Beautiful Markdown reader for local and web .md files: Mermaid diagrams, code highlighting, KaTeX math, TOC, dark/ivory themes." }
+}

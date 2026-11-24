@@ -1,0 +1,8 @@
+{
+  "name": {
+    "message": "Markdown ビューア – Mermaid・数式・目次"
+  },
+  "description": {
+    "message": "ローカルや Web の .md を見やすく表示。Mermaid 図、シンタックスハイライト、KaTeX 数式、目次、ダーク/アイボリーテーマ。"
+  }
+}

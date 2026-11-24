@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="icons/icon48.png" width="28" height="28" alt="">
+    <div>
+      <strong>Markdown Viewer</strong>
+      <small data-i18n="sub"></small>
+    </div>
+  </header>
+
+  <div class="warn" id="fileAccess" hidden>
+    <span data-i18n="fileAccess"></span>
+    <button id="openSettings" data-i18n="openSettings"></button>
+  </div>
+
+  <button class="primary" id="openViewer" data-i18n="open"></button>
+
+  <label data-i18n="theme"></label>
+  <div class="seg" data-key="theme">
+    <button data-v="auto"></button><button data-v="light"></button><button data-v="dark"></button><button data-v="ivory"></button>
+  </div>
+
+  <label data-i18n="width"></label>
+  <div class="seg" data-key="width">
+    <button data-v="narrow"></button><button data-v="normal"></button><button data-v="wide"></button><button data-v="full"></button>
+  </div>
+
+  <label data-i18n="font"></label>
+  <div class="seg" data-key="font">
+    <button data-v="sans"></button><button data-v="serif"></button>
+  </div>
+
+  <label><span data-i18n="size"></span> <span id="sizeVal"></span></label>
+  <input type="range" id="size" min="12" max="26" step="1">
+
+  <label class="row"><input type="checkbox" id="toc"> <span data-i18n="toc"></span></label>
+  <label class="row"><input type="checkbox" id="web"> <span data-i18n="web"></span></label>
+  <p class="hint" data-i18n="webHint"></p>
+
+  <footer data-i18n="foot"></footer>
+  <script src="popup.js"></script>
+</body>
+</html>

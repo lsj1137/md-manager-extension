@@ -1,0 +1,1 @@
+<!doctype html><html><body><div id="app">GitHub-like HTML page</div></body></html>

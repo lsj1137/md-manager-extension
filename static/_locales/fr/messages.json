@@ -1,0 +1,8 @@
+{
+  "name": {
+    "message": "Lecteur Markdown – Mermaid, KaTeX et sommaire"
+  },
+  "description": {
+    "message": "Lisez vos fichiers .md locaux et web : diagrammes Mermaid, coloration syntaxique, formules KaTeX, sommaire, thèmes sombre et ivoire."
+  }
+}

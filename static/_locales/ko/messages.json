@@ -1,0 +1,4 @@
+{
+  "name": { "message": "마크다운 뷰어 – Mermaid·수식·목차" },
+  "description": { "message": ".md 파일을 예쁘게 읽는 뷰어. Mermaid 다이어그램, 코드 하이라이트, KaTeX 수식, 목차, 다크/아이보리 테마, 한글 인코딩 자동 복구." }
+}
